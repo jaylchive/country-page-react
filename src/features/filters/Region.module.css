@@ -1,0 +1,18 @@
+.region {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn {
+  padding: 12px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 12px;
+}
+
+.btn.active {
+  background-color: var(--color-stone-600);
+}

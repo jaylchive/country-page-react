@@ -1,0 +1,47 @@
+.countryPage {
+  width: 720px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 48px auto;
+  padding: 24px 0;
+  border: 1px solid var(--color-stone-600);
+  border-radius: 12px;
+  background-color: var(--color-stone-800);
+  transform: translateY(-60px);
+}
+
+.countryPage > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: calc(-48px + -24px);
+}
+
+.flag {
+  width: 260px;
+  height: 196px;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.titleSection {
+  margin: 36px 0;
+  text-align: center;
+}
+
+.titleSection > h1 {
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.counters {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--color-stone-600);
+}

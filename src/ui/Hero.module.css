@@ -1,0 +1,17 @@
+.hero {
+  width: 100dvw;
+  height: 300px;
+  position: relative;
+
+  background-image: url('/hero-image-wr.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

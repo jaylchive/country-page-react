@@ -1,0 +1,12 @@
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.label {
+  color: var(--color-stone-300);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}

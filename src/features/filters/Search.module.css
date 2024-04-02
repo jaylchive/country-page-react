@@ -1,0 +1,20 @@
+.search {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background-color: var(--color-stone-600);
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.search input {
+  width: 295px;
+  font-size: var(--font-size-md);
+}

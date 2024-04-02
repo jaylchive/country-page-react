@@ -1,0 +1,23 @@
+.checklist {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: var(--font-size-md);
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.check:not(.active) {
+  border: 2px solid var(--color-stone-300);
+}
+
+.check.active {
+  background-color: var(--color-blue-500);
+}
