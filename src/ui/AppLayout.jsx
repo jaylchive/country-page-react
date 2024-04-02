@@ -1,17 +1,15 @@
-import styled from 'styled-components';
-import Hero from './Hero';
 import { Outlet } from 'react-router-dom';
 
-const StyledAppLayout = styled.div``;
+import Hero from './Hero';
 
 function AppLayout() {
   return (
-    <StyledAppLayout>
+    <div>
       <Hero />
       <main>
         <Outlet />
       </main>
-    </StyledAppLayout>
+    </div>
   );
 }
 
