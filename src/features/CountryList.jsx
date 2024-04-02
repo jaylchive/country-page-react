@@ -1,6 +1,5 @@
-import styled from 'styled-components';
-
 import CountryItem from './CountryItem';
+
 import { useCountries } from '../services/useCountries';
 import { useSearchParams } from 'react-router-dom';
 import { useCountriesListSize } from '../services/useCountriesListSize';
