@@ -1,0 +1,17 @@
+.listWrap {
+  width: 100%;
+  padding: 28px 22px;
+}
+
+.listWrap > p {
+  margin-bottom: 20px;
+  grid-column: 1 / -1;
+  color: var(--color-stone-300);
+  font-size: var(--font-size-md);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 16px;
+}
